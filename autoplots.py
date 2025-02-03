@@ -43,3 +43,8 @@ plt.xlabel("Value")
 plt.ylabel("Frequency")
 plt.show()
 
+# Example 4: Pairplot using columns 'acc' and 'disp'
+sns.pairplot(auto[['acc', 'disp']])
+plt.suptitle("Pairplot: acc and disp", y=1.02)
+plt.show()
+
